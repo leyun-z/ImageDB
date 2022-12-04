@@ -1,0 +1,222 @@
+/*主空间区域*/
+#Main {
+    background-color: white;
+    border-radius: 8px;
+}
+
+/*关闭按钮*/
+#BtnClose {
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#BtnClose:hover {
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: red;
+}
+
+/*最小化按钮*/
+#BtnMinimize {
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#BtnMinimize:hover {
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: aliceblue;
+}
+
+/*表格*/
+#ImageTable {
+    border: 1px solid #8CCCF4;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #8CCCF4;
+    outline: none;
+}
+
+#ImageTable::item {
+    color: #8CCCF4;
+    background-color: aliceblue;
+    border: 1px solid #8CCCF4;
+    border-radius: 8px;
+    margin: 4px;
+    outline: none;
+}
+
+#ImageTable::item:selected {
+    color: #51B6F4;
+}
+
+QHeaderView {
+    background: transparent;
+    font-weight: bold;
+}
+
+QHeaderView::section {
+    color: #8CCCF4;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: 4px;
+    outline: none;
+}
+
+QHeaderView::section:checked {
+    color: #51B6F4;
+}
+
+/*功能按钮*/
+#BtnDeleteImage,
+#BtnOpenImage,
+#BtnSaveImage,
+#BtnUpdateDB,
+#BtnUploadDB {
+    border: none;
+    border-radius: 8px;
+    min-width: 80px;
+    margin-left: 8px;
+    padding: 8px;
+    color: aliceblue;
+    background-color: #8CCCF4;
+}
+
+#BtnDeleteImage:hover,
+#BtnOpenImage:hover,
+#BtnSaveImage:hover,
+#BtnUpdateDB:hover,
+#BtnUploadDB:hover {
+    border: none;
+    border-radius: 8px;
+    min-width: 80px;
+    margin-left: 8px;
+    padding: 8px;
+    color: aliceblue;
+    background-color: #74CCF4;
+}
+
+#BtnDeleteImage:pressed,
+#BtnOpenImage:pressed,
+#BtnSaveImage:pressed,
+#BtnUpdateDB:pressed,
+#BtnUploadDB:pressed {
+    border: none;
+    border-radius: 8px;
+    min-width: 80px;
+    margin-left: 8px;
+    padding: 8px;
+    color: aliceblue;
+    background-color: #51B6F4;
+}
+
+#BtnDeleteImage:focus,
+#BtnOpenImage:focus,
+#BtnSaveImage:focus,
+#BtnUpdateDB:focus,
+#BtnUploadDB:focus {
+    outline: none;
+}
+
+/*图片Label*/
+#Image {
+    color: #8CCCF4;
+    background-color: transparent;
+}
+
+QScrollBar:horizontal {
+    height: 12px;
+    padding: 2px;
+    background: aliceblue;
+    margin: 0px, 0px, 0px, 0px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal {
+    height: 8px;
+    background: #8CCCF4;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    height: 8px;
+    background: #51B6F4;
+    border-radius: 4px;
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    height: 0px;
+    width: 0px;
+}
+
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+    background: aliceblue;
+}
+
+QScrollBar:vertical {
+    width: 12px;
+    padding: 2px;
+    background: aliceblue;
+    margin: 0px, 0px, 0px, 0px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    width: 8px;
+    background: #8CCCF4;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    width: 8px;
+    background: #51B6F4;
+    border-radius: 4px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    width: 0px;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: aliceblue;
+}
+
+#BtnSearch {
+    border: none;
+    padding: 4px;
+    color: #8CCCF4;
+    background-color: transparent;
+}
+
+#Input {
+    border: 1px solid rgba(140, 204, 244, 128);
+    border-radius: 8px;
+    margin-left: 8px;
+    min-width: 80px;
+    padding: 8px;
+    color: #8CCCF4;
+    selection-color: white;
+    background-color: white;
+    selection-background-color: #8CCCF4;
+}
+
+#Input:focus {
+    border: 1px solid #8CCCF4;
+    border-radius: 8px;
+    min-width: 80px;
+    margin-left: 8px;
+    padding: 8px;
+    color: #8CCCF4;
+    background-color: white;
+}
